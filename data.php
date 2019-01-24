@@ -4,7 +4,7 @@
     $number = " ";
     for ($i = 0; $i < 3; $i++) {
       $number .= rand(0, 10);
-      $letter .= chr(64+rand(0,25));
+      $letter .= chr(rand(65,90));
 
 
     }
